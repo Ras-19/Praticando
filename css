@@ -1,0 +1,15 @@
+html {
+  background-color:white;
+}
+p
+{
+  color: black;
+  width: 300px;
+  border: 1px solid black;
+}
+button
+{
+  color: blue;
+  width: 90px;
+  border: 1px solid black;
+}
