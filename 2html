@@ -11,10 +11,10 @@
  <table>
   <thead>
     <tr>
-    <tr> Produto </tr>
-    <tr> Quantidade </tr>
-    <tr> Preço </tr>
-    <tr>Data </tr>
+    <th> Produto </th>
+    <th> Quantidade </th>
+    <th> Preço </th>
+    <th>Data </th>
   </tr>
  </thead>
  <tbody>
