@@ -7,20 +7,8 @@
 <body>
   <h1> Bloco de notas </h1>
    <h3> Lista 1 </h3>
-<table>  <li>
-  <li>
-    <li>
-      <li>
-  <li> </table>
-  <button onclick="Salvar()">Salvar</button>
-  <button onclick="Editar()">Editar</button>
-  <button onclicl="Carregar()">Carregar</button>
-  <div class= "menu-lateral">
- <button onclick="Nova lista()">Nova lista</button>
-    <button onclick="Juntar listas()">Juntar listas</button>
-    <button onclik="Deletar lista()">Deletar lista</button>
-  </div>
-  <table>
+<table>  
+ <table>
   <thead>
     <tr>
     <tr> Produto </tr>
@@ -34,9 +22,19 @@
      <td> Digite Aqui ! </td>
      <td></td>
      <td></td>
+<td></td>
    </tr>
 </tbody>
   </table>
+</table>
+  <button onclick="Salvar()">Salvar</button>
+  <button onclick="Editar()">Editar</button>
+  <button onclick="Carregar()">Carregar</button>
+  <div class= "menu-lateral">
+ <button onclick="Novalista()">Nova lista</button>
+    <button onclick="Juntarlistas()">Juntar listas</button>
+    <button onclick="Deletar lista()">Deletar lista</button>
+  </div>
   <script src="script.js"></script> 
 </body>
 </html>
