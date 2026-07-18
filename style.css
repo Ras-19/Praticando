@@ -1,0 +1,62 @@
+html {
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    width: 300px;
+    border: 1px solid black;
+}
+
+h2 {
+    color: blue;
+    width: 300px;
+    border: 1px solid black;
+}
+
+h3 {
+    color: #212121;
+    width: 300px;
+    border: 1px solid black;
+    font-size: 17px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+li {
+    color: black;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+button {
+    color: blue;
+    width: 90px;
+    border: 1px solid black;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+table {
+    counter-reset: linha;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tbody tr {
+    counter-increment: linha;
+}
+
+tbody tr td:first-child::before {
+    content: counter(linha) ". ";
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
