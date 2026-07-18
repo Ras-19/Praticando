@@ -1,40 +1,42 @@
 <!DOCTYPE html>
-<html lang= "pt-BR">
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8"/>
-<title>Página</title>
+    <meta charset="UTF-8" />
+    <title>Página</title>
 </head>
 <body>
-  <h1> Bloco de notas </h1>
-   <h3> Lista 1 </h3>
-<table>  
- <table>
-  <thead>
-    <tr>
-    <th> Produto </th>
-    <th> Quantidade </th>
-    <th> Preço </th>
-    <th>Data </th>
-  </tr>
- </thead>
- <tbody>
-   <tr>
-     <td> Digite Aqui ! </td>
-     <td></td>
-     <td></td>
-<td></td>
-   </tr>
-</tbody>
-  </table>
-</table>
-  <button onclick="Salvar()">Salvar</button>
-  <button onclick="Editar()">Editar</button>
-  <button onclick="Carregar()">Carregar</button>
-  <div class= "menu-lateral">
- <button onclick="Novalista()">Nova lista</button>
-    <button onclick="Juntarlistas()">Juntar listas</button>
-    <button onclick="Deletar lista()">Deletar lista</button>
-  </div>
-  <script src="script.js"></script> 
+    <h1>Bloco de notas</h1>
+    <h3>Lista 1</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Digite Aqui !</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button onclick="Salvar()">Salvar</button>
+    <button onclick="Editar()">Editar</button>
+    <button onclick="Carregar()">Carregar</button>
+
+    <div class="menu-lateral">
+        <button onclick="Novalista()">Nova lista</button>
+        <button onclick="Juntarlistas()">Juntar listas</button>
+        <button onclick="DeletarLista()">Deletar lista</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
